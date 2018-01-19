@@ -15,4 +15,4 @@ VOLUME  /data/rethinkdb
 #Ports:	process cluster webui
 EXPOSE  28015   29015   8080
 
-ENTRYPOINT rethinkdb --directory /data/rethinkdb --initial-password ${RETHINK_PASSWORD} --bind all
+ENTRYPOINT rethinkdb --directory /data/rethinkdb --initial-password ${RETHINKDB_PASSWORD} --bind all
