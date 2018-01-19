@@ -37,3 +37,12 @@ docker run -d --name rethinkdb \
   -v /path/to/data:/data/rethinkdb \
   clutteredcode/rethinkdb-alpine
 ```
+
+## Web UI
+
+**Localhost**
+* Navigate to: [localhost:8080](http://localhost:8080)
+
+**Remote**
+* Create SSH Tunnel: `ssh -L 8080:127.0.0.1:8080 user@yourserver`
+* Navigate to: [localhost:8080](http://localhost:8080)
