@@ -14,6 +14,7 @@ This image will set a password based on environment variables at run time.
 RETHINKDB_PASSWORD="super_secure"
 ```
 
+**cmd**
 ```bash
 docker pull clutteredcode/rethinkdb-alpine
 docker run -d --name rethinkdb \
@@ -25,7 +26,7 @@ docker run -d --name rethinkdb \
   clutteredcode/rethinkdb-alpine
 ```
 -----------------------
-Same as above, but not using an env-file.
+**inline cmd**
 ```bash
 docker pull clutteredcode/rethinkdb-alpine
 docker run -d --name rethinkdb \
